@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
 body{
   min-height: 100vh;
   display: flex;
@@ -9,6 +11,12 @@ body{
 
 main{
   flex-grow: 1;
+}
+
+/* Reloj */
+.contenedorReloj{
+  font-family: 'Nova Square', sans-serif;
+  margin-top: 100px;
 }
 
 button:active{
